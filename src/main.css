@@ -1,0 +1,44 @@
+@font-face{
+    font-family: "Yuckie";
+    src: url("Yuckie-Regular.ttf") format("truetype");
+}
+
+:root {
+  color-scheme: light dark;
+  color: #FF96BE;
+  background-color: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  caret-color: transparent;
+  /* cursor: none; */
+}
+
+p {
+    cursor:default;
+}
+
+a {
+  font-weight: 500;
+  font-size: 50px;
+  color: #FF96BE;
+  text-decoration: inherit;
+}
+
+
+body {
+  margin: 0;
+  font-family: Yuckie;
+  font-size: larger;
+  height: 100vh;
+}
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #FF96BE;
+    background-color: #ffffff;
+  }
+}
