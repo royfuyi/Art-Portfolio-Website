@@ -40,7 +40,7 @@
 .footerText{
     filter: opacity(60%);
     color: white;
-    font-size: 50px;
+    font-size: 7vw;
 }
 .returnButton{
     width: 4vw;
