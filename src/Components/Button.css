@@ -13,4 +13,7 @@
     .button:hover {
         all: unset;
     }
+    .button:active {
+        color: #FF004E;
+    }
 }

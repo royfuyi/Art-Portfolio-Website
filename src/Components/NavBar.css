@@ -48,8 +48,10 @@
 
 @media (hover: none) {
     .homeButton:hover {
-        /* all: unset; */
         background-image: url('/src/assets/logo1.svg');
+    }
+    .homeButton:active {
+        background-image: url('/src/assets/logoHover.svg');
     }
 }
 
