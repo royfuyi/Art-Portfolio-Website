@@ -1,13 +1,11 @@
 .button{
     color: #FF96BE;
-
-    /* opacity: 70%; */
-    /* transition: transform 0.3s ease-in-out; */
     transition: color 0.3s ease-in-out;
+    line-height: 3vw;
+    text-align: center;
 
 }
 .button:hover {
     color: #FF004E;
     cursor: pointer;
-    /* transform: scale(1.1); */
 }

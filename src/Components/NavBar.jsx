@@ -9,7 +9,7 @@ export function NavBar() {
     return (
         <>
             <div className="nav">
-                <Link to="/illustrations" onClick={handleReload}><Button className="navButton" text="illustrations" size="5vw"/></Link>
+                <Link to="/illustrations" onClick={handleReload} ><Button className="navButton" text="illustrations" size="5vw"/></Link>
                 <Link to="/" onClick={handleReload}><div className="homeButton"/></Link>
                 <Link to="/commissioninfo" onClick={handleReload}><Button className="navButton" text="commission info" size="5vw"/></Link>
             </div>
