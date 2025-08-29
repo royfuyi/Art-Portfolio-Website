@@ -9,3 +9,8 @@
     color: #FF004E;
     cursor: pointer;
 }
+@media (hover: none) {
+    .button:hover {
+        all: unset;
+    }
+}

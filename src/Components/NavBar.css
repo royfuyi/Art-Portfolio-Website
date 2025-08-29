@@ -42,8 +42,14 @@
     transition: background-image 0.3s ease-in-out;
 }
 
-.homeButton:hover, .homeButton:active{
+.homeButton:hover {
     background-image: url('/src/assets/logoHover.svg');
+}
+
+@media (hover: none) {
+    .homeButton:hover {
+        all: unset;
+    }
 }
 
 .navButton {
