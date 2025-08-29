@@ -1,0 +1,97 @@
+.commissionText{
+    text-align: center;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    padding-bottom: 10vw;
+    padding-top: 10vw;
+}
+
+#commTitle{
+    font-size: 12vw;
+    margin: 0;
+}
+
+.subText{
+    opacity: 60%;
+    font-size: 4vw;
+    margin: 0;
+    line-height: 3vw;
+}
+
+.subTextP{
+    opacity: 60%;
+    font-size: 4vw;
+    margin: 4vw;
+    line-height: 3vw;
+}
+
+.subTitle{
+    color: #FF004E;
+    font-size: 8vw;
+    margin-top: 10vw;
+    margin-bottom: 1vw;
+}
+
+.info{
+    font-size: 5vw;
+    margin: 0;
+}
+
+.infoT{
+    font-size: 6vw;
+    opacity: 60%;
+    margin: 0;
+}
+
+.infoPic{
+    width: 15vw;
+}
+
+.tableInfo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+}
+
+.sideText{
+    text-align: left;
+    line-height: 2vw;
+    margin: 1vw;
+}
+
+#sizeChart{
+    width: 30vw;
+}
+
+#chibiT{
+    text-align: left;
+    margin-left: 2vw;
+}
+
+#dosDonts{
+    align-items: baseline;
+}
+
+.samples{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:2vw;
+}
+
+.sampleImg{
+    width: 30vw;
+}
+.payment{
+    font-size: 5vw;
+}
+#paymentButton{
+    transition: scale 0.3s ease-in-out;
+    filter: var(--yarl__button_filter, drop-shadow(2px 2px 2px rgb(205, 205, 205)));
+
+}
+#paymentButton:hover{
+    scale: 1.1;
+
+}
