@@ -125,7 +125,6 @@ export function CommissionPage() {
                     <img src={paymentButton} className="infoPic" id="paymentButton"/>
                 </a>
             </div>
-            <FormSubmission />
         </>
     )
 }
