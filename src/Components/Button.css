@@ -5,14 +5,14 @@
     text-align: center;
 
 }
-.button:hover {
-    color: #FF004E;
-    cursor: pointer;
-}
-@media (hover: none) {
+
+@media (hover: hover){
     .button:hover {
-        all: unset;
+        color: #FF004E;
+        cursor: pointer;
     }
+  }
+@media (hover: none) {
     .button:active {
         color: #FF004E;
     }

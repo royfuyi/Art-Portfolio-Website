@@ -42,16 +42,14 @@
     transition: background-image 0.3s ease-in-out;
 }
 
-.homeButton:hover {
-    background-image: url('/src/assets/logoHover.svg');
-}
-
-@media (hover: none) {
+@media (hover: hover) {
     .homeButton:hover {
-        background-image: url('/src/assets/logo1.svg');
-    }
-    .homeButton:active {
         background-image: url('/src/assets/logoHover.svg');
+    }
+}
+@media (hover: none) {
+    .homeButton:active {
+        filter: var(--yarl__button_filter, drop-shadow(2px 2px 2px rgb(205, 205, 205)));
     }
 }
 
