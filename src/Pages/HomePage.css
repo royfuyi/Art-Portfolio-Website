@@ -157,4 +157,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 10vh;
+    margin-top: 5vw;
 }

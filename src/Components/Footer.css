@@ -8,15 +8,6 @@
     align-items: center;
     flex-direction: column;
     opacity: 85%;
-    /* background: none;
-    background-image: url('./assets/ginghambckg.jpg');
-    background-size: 100% 100%;
-    opacity: 80%;
-    background-repeat: no-repeat;
-    background-position: center center;
-    width: 100%;
-    padding: 0px;
-    filter: var(--yarl__button_filter, drop-shadow(2px 2px 2px rgb(205, 205, 205))); */
 }
 
 .links {
@@ -45,6 +36,8 @@
 .returnButton{
     width: 4vw;
     height:  4vw;
+    min-width: 45px;
+    min-height: 45px;
     position:fixed;
     bottom: 2vw;
     right: 2vw;
@@ -56,4 +49,10 @@
 .returnButton:hover{
     opacity: 100%;
     cursor:pointer;
+}
+
+@media (hover: none) {
+    .button:hover {
+        all: unset;
+    }
 }
