@@ -162,7 +162,7 @@ export const photos = [
         srcSet: [
             { src: img11a, width: 341, height: 800 },
           ],
-        title: "B & Bishop",
+        title: "B and Bishop",
         description: "Illustration of B and Bishop, character designs by l190l372 on instagram (2025)",
     },
     {
@@ -259,7 +259,7 @@ export const photos = [
         src: img21,
         width: 873,
         height: 633,
-        title: "Yukihyo & Fere",
+        title: "Yukihyo and Fere",
         description: "Illustration of Yukihyo and Fere, character design by stingrae36 on instagram (2024)",
     },
     {
