@@ -28,10 +28,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: opacity 0.3s ease-in-out;
 }
 @media (hover: none) {
     .nav a:active{
-        filter: var(--yarl__button_filter, drop-shadow(2px 2px 2px rgb(205, 205, 205)));
+        opacity: 50%;
     }
 }
 
@@ -50,11 +51,6 @@
 @media (hover: hover) {
     .homeButton:hover {
         background-image: url('/src/assets/logoHover.svg');
-    }
-}
-@media (hover: none) {
-    .homeButton:active {
-        filter: var(--yarl__button_filter, drop-shadow(2px 2px 2px rgb(205, 205, 205)));
     }
 }
 
