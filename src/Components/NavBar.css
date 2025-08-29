@@ -29,6 +29,11 @@
     justify-content: center;
     align-items: center;
 }
+@media (hover: none) {
+    .nav a:active{
+        filter: var(--yarl__button_filter, drop-shadow(2px 2px 2px rgb(205, 205, 205)));
+    }
+}
 
 .homeButton {
     width: 15vw;
